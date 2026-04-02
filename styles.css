@@ -1,1 +1,25 @@
-/*  your css code here. If applicable */
+body {
+    background: linear-gradient(to right, #8e44ad, #9b59b6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 20px;
+    border: none;
+    background-color: #6c3483;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.stop {
+    background-color: red;
+}
